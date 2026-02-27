@@ -14,7 +14,7 @@ export function FeaturesSection() {
     },
     {
       icon: MessageSquare,
-      title: "Conversation starters",
+      title: "Never wonder what to say next.",
       description: "Get follow‑up questions to keep the talk going when you’re not sure what to say."
     },
     {
