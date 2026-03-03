@@ -39,7 +39,7 @@ export function HeroSection() {
                 </Link>
 
           {/* Hero Video */}
-          <div className="mt-[30px] w-full md:w-[100%] lg:w-full max-w-[1150px] mx-auto px-4">
+          <div className="mt-[30px] w-[90%] md:w-[40%] mx-auto">
             <div className="relative rounded-[24px] overflow-hidden shadow-[0_24px_60px_rgba(255,122,170,0.35)]">
               <video
                 autoPlay
