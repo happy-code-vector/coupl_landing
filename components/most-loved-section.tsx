@@ -11,20 +11,6 @@ export function MostLovedSection() {
 
         {/* Visual Content Grid */}
         <div className="flex flex-col md:flex-row items-center justify-center gap-8">
-          {/* Review Card Image */}
-          <div className="max-w-[280px] md:max-w-[320px]">
-            <div className="relative rounded-[24px] overflow-hidden border border-[#FFC1DE] hover:border-[#FF8AB8] transition-all duration-300 shadow-[0_18px_40px_rgba(255,122,170,0.18)] hover:shadow-[0_22px_50px_rgba(255,122,170,0.28)] bg-[#FFEAF4]">
-              <Image
-                src="https://framerusercontent.com/images/AmoV7s57QZK2IY6s5gFkmbwpRDk.png?scale-down-to-512&width=1876&height=1204"
-                alt="User Review - 6 stars if I could"
-                width={320}
-                height={205}
-                className="w-full h-auto"
-                priority
-              />
-            </div>
-          </div>
-
           {/* Video Preview */}
           <div className="max-w-[320px] md:max-w-[400px]">
             <div className="relative rounded-[24px] overflow-hidden border border-[#FFC1DE] hover:border-[#FF8AB8] transition-all duration-300 shadow-[0_18px_40px_rgba(255,122,170,0.18)] hover:shadow-[0_22px_50px_rgba(255,122,170,0.28)] bg-[#FFEAF4]">

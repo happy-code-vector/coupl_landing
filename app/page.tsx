@@ -1,6 +1,5 @@
 import { SiteHeader } from "@/components/site-header"
 import { HeroSection } from "@/components/hero-section"
-import { LogoMarqueeSection } from "@/components/logo-marquee-section"
 import { SampleQuestionSection } from "@/components/sample-question-section"
 import { MostLovedSection } from "@/components/most-loved-section"
 import { FeaturesSection } from "@/components/features-section"
@@ -18,7 +17,6 @@ export default function Home() {
       <main className="flex-1 pt-16">
         <HeroSection />
         <SampleQuestionSection />
-        <LogoMarqueeSection />
         <MostLovedSection />
         <FeaturesSection />
         <HowItWorksSection />
