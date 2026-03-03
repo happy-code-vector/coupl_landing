@@ -23,7 +23,7 @@ export function TestimonialsSection() {
   ]
 
   return (
-    <section className="w-full max-w-[1200px] mx-auto px-4 mt-[120px] md:mt-[180px]">
+    <section className="w-full max-w-[1200px] mx-auto px-4 py-20">
       {/* Section Header */}
       <header className="text-left mb-8">
         <span className="text-[16px] text-[#FF3E82] font-rethink-sans border border-[#FFB3D7] px-4 py-2 rounded-full bg-[#FFEAF4] shadow-[inset_0px_1px_10px_0px_rgba(255,122,170,0.18)] inline-block mb-[10px]">

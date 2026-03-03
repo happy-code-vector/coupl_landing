@@ -17,11 +17,11 @@ export default function Home() {
       <main className="flex-1 pt-16">
         <HeroSection />
         <SampleQuestionSection />
+        <TestimonialsSection />
         <MostLovedSection />
         <FeaturesSection />
         <HowItWorksSection />
         <FeaturesShowcaseSection />
-        <TestimonialsSection />
         <FAQSection />
         <CTASection />
       </main>
