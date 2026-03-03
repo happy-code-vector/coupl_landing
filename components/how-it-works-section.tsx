@@ -81,26 +81,18 @@ export function HowItWorksSection() {
 
       {/* App Preview Images */}
       <div className="mt-16 flex justify-center gap-6 flex-wrap">
-        <div className="relative w-[180px] md:w-[220px] h-[360px] md:h-[440px] rounded-[32px] overflow-hidden shadow-[0_24px_60px_rgba(255,122,170,0.35)] border border-[#FFC1DE]">
+        <div className="relative w-[280px] md:w-[320px] h-[280px] md:h-[320px] rounded-[24px] overflow-hidden shadow-[0_24px_60px_rgba(255,122,170,0.35)] border border-[#FFC1DE]">
           <Image
-            src="/visuals/pomelli-image.png"
-            alt="Coupl App Screen"
+            src="/landing/The_Science_of_Drift_version_1.png"
+            alt="The Science of Drift"
             fill
             className="object-cover"
           />
         </div>
-        <div className="relative w-[180px] md:w-[220px] h-[360px] md:h-[440px] rounded-[32px] overflow-hidden shadow-[0_24px_60px_rgba(255,122,170,0.35)] border border-[#FFC1DE] hidden md:block">
+        <div className="relative w-[280px] md:w-[320px] h-[280px] md:h-[320px] rounded-[24px] overflow-hidden shadow-[0_24px_60px_rgba(255,122,170,0.35)] border border-[#FFC1DE] hidden md:block">
           <Image
-            src="/visuals/pomelli-image (1).png"
-            alt="Coupl App Screen"
-            fill
-            className="object-cover"
-          />
-        </div>
-        <div className="relative w-[180px] md:w-[220px] h-[360px] md:h-[440px] rounded-[32px] overflow-hidden shadow-[0_24px_60px_rgba(255,122,170,0.35)] border border-[#FFC1DE] hidden lg:block">
-          <Image
-            src="/visuals/pomelli-image (2).png"
-            alt="Coupl App Screen"
+            src="/landing/Intimacy_That_Lasts_version_1.png"
+            alt="Intimacy That Lasts"
             fill
             className="object-cover"
           />

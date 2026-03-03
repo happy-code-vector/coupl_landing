@@ -21,7 +21,7 @@ export function MostLovedSection() {
                 playsInline
                 className="w-full h-auto"
               >
-                <source src="/visuals/Toss_the_Digital_Dust_version_1.mp4" type="video/mp4" />
+                <source src="/landing/Toss_the_Digital_Dust_version_1.mp4" type="video/mp4" />
               </video>
             </div>
           </div>

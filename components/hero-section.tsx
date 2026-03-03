@@ -1,4 +1,3 @@
-import Image from "next/image"
 import Link from "next/link"
 
 import { Button } from "@/components/ui/button"
@@ -39,16 +38,19 @@ export function HeroSection() {
             </span>
                 </Link>
 
-          {/* Hero Image */}
+          {/* Hero Video */}
           <div className="mt-[30px] w-full md:w-[100%] lg:w-full max-w-[1150px] mx-auto px-4">
-            <Image
-              src="/landing/Intimacy_That_Lasts_version_1.png"
-              alt="Coupl App - Daily questions and relationship games for couples"
-              width={1000}
-              height={600}
-              className="w-full h-auto rounded-[24px] shadow-[0_24px_60px_rgba(255,122,170,0.35)]"
-              priority
-            />
+            <div className="relative rounded-[24px] overflow-hidden shadow-[0_24px_60px_rgba(255,122,170,0.35)]">
+              <video
+                autoPlay
+                loop
+                muted
+                playsInline
+                className="w-full h-auto"
+              >
+                <source src="/landing/Intimacy_That_Lasts_version_1 (1).mp4" type="video/mp4" />
+              </video>
+            </div>
           </div>
 
           {/* Trusted By Section */}
