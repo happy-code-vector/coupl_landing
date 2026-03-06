@@ -39,10 +39,17 @@ export function HeroSection() {
             </span>
           </Link>
 
-          {/* Hero Video */}
+          {/* Hero Image */}
           <div className="mt-[30px] w-[90%] md:w-[40%] mx-auto">
             <div className="relative rounded-[24px] overflow-hidden shadow-[0_24px_60px_rgba(255,122,170,0.35)]">
-              
+              <Image
+                src="/landing/feel_close_from_anywhere_version_1.png"
+                alt="Feel close from anywhere"
+                width={500}
+                height={500}
+                className="w-full h-auto"
+                priority
+              />
             </div>
           </div>
         </div>
