@@ -25,6 +25,20 @@ export function MostLovedSection() {
               </video>
             </div>
           </div>
+          {/* Hero Video */}
+          <div className="max-w-[320px] md:max-w-[400px]">
+            <div className="relative rounded-[24px] overflow-hidden shadow-[0_24px_60px_rgba(255,122,170,0.35)]">
+              <video
+                autoPlay
+                loop
+                muted
+                playsInline
+                className="w-full h-auto"
+              >
+                <source src="/landing/Intimacy_That_Lasts_version_1 (1).mp4" type="video/mp4" />
+              </video>
+            </div>
+          </div>
         </div>
       </div>
     </section>

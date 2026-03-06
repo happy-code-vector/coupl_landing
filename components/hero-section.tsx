@@ -1,3 +1,4 @@
+import Image from "next/image"
 import Link from "next/link"
 
 import { Button } from "@/components/ui/button"
@@ -36,25 +37,14 @@ export function HeroSection() {
             <span className="absolute inset-[2px] rounded-[200px] bg-gradient-to-r from-[#FF5C98] to-[#FF2F70] flex items-center justify-center z-10">
               <span className="text-white font-rethink-sans">Start Your First Ritual</span>
             </span>
-                </Link>
+          </Link>
 
           {/* Hero Video */}
           <div className="mt-[30px] w-[90%] md:w-[40%] mx-auto">
             <div className="relative rounded-[24px] overflow-hidden shadow-[0_24px_60px_rgba(255,122,170,0.35)]">
-              <video
-                autoPlay
-                loop
-                muted
-                playsInline
-                className="w-full h-auto"
-              >
-                <source src="/landing/Intimacy_That_Lasts_version_1 (1).mp4" type="video/mp4" />
-              </video>
+              
             </div>
           </div>
-
-          {/* Trusted By Section */}
-       
         </div>
       </div>
     </section>
